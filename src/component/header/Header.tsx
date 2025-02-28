@@ -4,11 +4,12 @@ import NavBar from "../navbar/NavBar";
 import logo from "../../assets/logo.png";
 import notification from "../../assets/notification.png";
 import searcgImg from "../../assets/search.png";
+import user from "../../assets/user.png";
 
 export default function Header() {
   return (
     <header>
-      <div className={style.header}>
+      <div className={style.headerDiv}>
         <img src={logo} />
         <NavBar />
         <div className={style.icon}>
@@ -18,6 +19,9 @@ export default function Header() {
           <div className={style.boxIcon}>
             <img src={searcgImg} />
           </div>
+        </div>
+        <div className={style.user}>
+          <img src={user} alt="" />
         </div>
       </div>
     </header>

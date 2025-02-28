@@ -1,11 +1,15 @@
-.header{
+.headerDiv{
     display: flex;
     flex-direction: row;
+    align-items: center;
+}
+.logo{
+    height: 23px;
 }
 .icon{
     display: flex;
-    gap: 10px;
-    margin-left: 10%;
+    gap: 15px;
+    margin-left: 4.5%;
 }
 .boxIcon{
     display: grid;
@@ -15,4 +19,7 @@
     width: 40px;
     height: 40px;
     background-color: #3B2636;
+}
+.user{
+    margin-left: 3%;
 }
