@@ -1,0 +1,30 @@
+.editMoodBox{
+    margin: 0 15%;
+}
+.editMood{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.editMoodSpan{
+    display: flex;
+    width: 84px;
+    height: 32px;
+    align-items: center;
+    justify-content: center;
+    background-color: #3B2636;
+    border-radius: 8px;
+    margin-left: 70%;
+}
+.editMoodForm{
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.editMoodInputForm{
+    width: 30%;
+    background-color: #3B2636;
+    border: 0;
+    height: 32px;
+    border-radius: 8px;
+}

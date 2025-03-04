@@ -1,0 +1,28 @@
+.addNotes{
+    padding-top: 50px;
+    margin: 0 15%;
+    color: white;
+}
+.addNotes > form{
+    display: flex;
+    flex-direction: column;
+}
+.addNotes > form > input{
+    width: 448px;
+    height: 144px;
+    background-color: #3B2636;
+    border: 0;
+}
+.saveChangeSpan{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.saveChangeSpan > span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FF05C9;
+    width: 129px;
+    height: 40px;
+    border-radius: 8px;
+}

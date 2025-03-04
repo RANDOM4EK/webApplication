@@ -1,0 +1,23 @@
+.moodDescription{
+    color: white;
+    margin: 0 15%;
+}
+.moodDescriptionSpan{
+    width: 223px;
+    height: 58px;
+    background-color: #291C26;
+    border: solid 1px #57384F;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px ;
+    font-weight: 700;
+}
+.moodDescriptionSpan > img{
+    margin-right: 10px;
+}
+.moodDescriptionSpanCollection{
+    display: flex;
+    gap: 20px;
+
+}
