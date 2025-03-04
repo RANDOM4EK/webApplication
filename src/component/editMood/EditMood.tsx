@@ -11,7 +11,7 @@ export default function EditMood() {
       <div>
         <form action="" className={style.editMoodForm}>
             <label htmlFor="">Date</label>
-            <input type="text" className={style.editMoodInputForm} />
+            <input type="date" className={style.editMoodInputForm} />
         </form>
       </div>
     </div>

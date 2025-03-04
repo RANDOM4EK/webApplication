@@ -12,6 +12,7 @@
     height: 144px;
     background-color: #3B2636;
     border: 0;
+    color: white;
 }
 .saveChangeSpan{
     display: flex;
