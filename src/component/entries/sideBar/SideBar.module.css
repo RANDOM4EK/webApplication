@@ -1,0 +1,47 @@
+.sadiBar{
+    margin-left: 40px;
+    margin-top: 35px;
+    width: 320px;
+    height: 828px;
+}
+.sideNav{
+    display: flex;
+    flex-direction: column;
+}
+.sideNav > span{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.sideFeed{
+    display: flex;
+    flex-direction: column;
+    margin-top: 352px;
+}
+.sideFeed > span{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.sideSpan{
+    display: flex;
+    flex-direction: column;
+}
+.sideSpan > span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 6px 0px ;
+}
+.sideSpanFirst{
+    width: 288px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #FF05C9;
+}
+.sideSpanLast{
+    width: 288px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #3B2636;
+}
